@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        Remote Job Search
+    </title>
+    <link href="https://andybrewer.github.io/mvp/mvp.css" rel="stylesheet"></link>
+
+    <style>
+        body {
+            margin: 50px 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        form {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Remote Jobs Search</h1>
+
+    <form action="/search" method="GET">
+        <h3>Search by term: </h3>
+        <input type="text" placeholder="python, javascript, etc." name="term" required>
+        <button>Find my REMOTE job</button>
+    </form>
+
+</body>
